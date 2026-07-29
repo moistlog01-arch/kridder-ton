@@ -152,7 +152,7 @@ fun onInternalMessage(in: InMessage) {
         DropMinterAdmin => {
             var storage = lazy MinterStorage.load();
             assertSenderIsAdmin(in.senderAddress, storage.adminAddress);
-            storage.adminAddress = null;
+            storage.adminAddress = lockedAdminAddress();
             storage.nextAdminAddress = null;
             storage.save();
         }
@@ -185,7 +185,7 @@ get fun get_jetton_data(): JettonDataReply {
 
     return {
         totalSupply: storage.totalSupply,
-        mintable: storage.adminAddress != null,
+        mintable: storage.adminAddress != null && storage.adminAddress != lockedAdminAddress(),
         adminAddress: storage.adminAddress,
         jettonContent: storage.metadata as Cell<OnchainMetadataReply>,
         jettonWalletCode,

@@ -1,5 +1,11 @@
 import "@stdlib/strings"
 
+/// Unspendable zero address used to make the admin lock indexer-compatible.
+/// Keeping an address-shaped value in get_jetton_data() is required by TEP-74.
+fun lockedAdminAddress(): address {
+    return address("0:0000000000000000000000000000000000000000000000000000000000000000");
+}
+
 struct WalletStorage {
     jettonBalance: coins
     ownerAddress: address

@@ -12,7 +12,8 @@ fun main() {
 
     val minter = promptJettonMinter("Enter Jetton Minter address");
 
-    println("WARNING: This permanently disables minting, metadata updates, admin changes, and upgrades.");
+    println("WARNING: This permanently locks admin rights to the unspendable zero address.");
+    println("Minting, metadata updates, admin changes, and upgrades will be disabled.");
     println("MINTER={}", minter.address);
     println("CURRENT_ADMIN={}", admin.address);
 

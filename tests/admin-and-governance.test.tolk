@@ -166,7 +166,21 @@ get fun `test admin: admin can drop admin access`() {
         from: deployer.address,
         to: minter.address,
     });
-    expect(minter.getAdminAddress()).toEqual(null);
+    expect(minter.getAdminAddress()).toEqual(lockedAdminAddress());
+    expect(minter.getJettonData().mintable).toEqual(false);
+
+    val mintAfterLock = minter.sendMint(
+        deployer.address,
+        deployer.address,
+        ton("1"),
+        ton("0.05"),
+        ton("0.3"),
+    );
+    expect(mintAfterLock).toHaveFailedTx<MintNewJettons>({
+        from: deployer.address,
+        to: minter.address,
+        exitCode: Errors.NotOwner,
+    });
 }
 
 get fun `test admin: admin can change metadata uri`() {
