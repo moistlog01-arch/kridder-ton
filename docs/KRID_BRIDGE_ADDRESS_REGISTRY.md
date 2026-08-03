@@ -27,12 +27,12 @@ EQCzrzXy-CRTA6-A_WMgWaRjCu8xvS9SW7AhiwvavxLBfvHP
 
 Status:
 
-NOT CREATED
+CREATED
 
 
 Address:
 
-TBD
+0x77Df7fB133A3c9CEE52B4e34334ca4aEF39ed83d
 
 
 ---
@@ -41,12 +41,12 @@ TBD
 
 Status:
 
-NOT CREATED
+CREATED
 
 
 Address:
 
-TBD
+0xA03423ee91e54c753642fA2226a9faBDaB1DA276
 
 
 ---
@@ -55,12 +55,12 @@ TBD
 
 Status:
 
-NOT CREATED
+CREATED
 
 
 Address:
 
-TBD
+0xB731E8d7A789Fc11F6Fb4A77FF7A035a7328AA26
 
 
 ---
@@ -71,12 +71,12 @@ TBD
 
 Status:
 
-NOT CREATED
+CREATED
 
 
 Address:
 
-TBD
+0x79D374aDb8Dc60DCC42a7F52941a31f85c1400c4
 
 
 ---
