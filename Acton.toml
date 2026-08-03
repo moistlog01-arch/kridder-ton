@@ -17,6 +17,11 @@ display-name = "JettonWallet"
 src = "contracts/JettonWallet.tolk"
 depends = []
 
+[contracts.KRIDGateway]
+display-name = "KRIDGateway"
+src = "contracts/KRIDGateway.tolk"
+depends = []
+
 [test]
 
 [fmt]
