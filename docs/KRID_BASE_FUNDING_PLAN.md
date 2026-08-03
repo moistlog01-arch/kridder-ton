@@ -19,7 +19,12 @@ Contract deployment and verification
 
 Funding Status:
 
-PENDING
+FUNDED
+
+
+Amount:
+
+TBD ETH
 
 
 Target:
