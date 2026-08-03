@@ -24,8 +24,7 @@ fun GatewayStorage.save(self) {
     contract.setData(self.toCell());
 }
 
-type AllowedMessageToGateway =
-    | BridgeDeposit
+type AllowedMessageToGateway = BridgeDeposit
 
 fun onInternalMessage(in: InMessage) {
     val msg = lazy AllowedMessageToGateway.fromSlice(in.body);
