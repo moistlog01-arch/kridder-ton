@@ -22,12 +22,12 @@ Base Mainnet
 
 Status:
 
-PENDING VERIFICATION
+VERIFIED
 
 
 Balance:
 
-TBD
+0 ETH (awaiting funding)
 
 
 Notes:
@@ -52,12 +52,12 @@ Base Mainnet
 
 Status:
 
-PENDING VERIFICATION
+VERIFIED
 
 
 Balance:
 
-TBD
+0 ETH (awaiting funding)
 
 
 Notes:
@@ -82,12 +82,12 @@ Base Mainnet
 
 Status:
 
-PENDING VERIFICATION
+VERIFIED
 
 
 Balance:
 
-TBD
+0 ETH (awaiting funding)
 
 
 Notes:
@@ -112,12 +112,12 @@ Base Mainnet
 
 Status:
 
-PENDING VERIFICATION
+VERIFIED
 
 
 Balance:
 
-TBD
+0 ETH (awaiting funding)
 
 
 Notes:
