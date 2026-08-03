@@ -52,7 +52,12 @@ Bridge configuration and operations
 
 Funding Status:
 
-PENDING
+FUNDED
+
+
+Amount:
+
+~$23 USD ETH
 
 
 Target:
