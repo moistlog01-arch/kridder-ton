@@ -6,4 +6,8 @@ enum Errors {
     NotOwner = 73
     NotValidWallet = 74
     WrongWorkchain = 333
+    GatewayPaused = 334
+    BridgeReplay = 335
+    InvalidBridgePayload = 336
+    InvalidBridgeAmount = 337
 }
